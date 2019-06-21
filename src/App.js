@@ -9,26 +9,17 @@ import "bootstrap/dist/css/bootstrap.css";
 import Test from "./components/Test";
 function App() {
   return (
-    // <div>
-    //   <Counter />
-    //   <TodoApp />
-    //   <Message />
-    //   <MovieList />
-    // </div>
 
-    // <div>
-    //   <nav className="bg-secondary" style={{ color: "white" }}>
-    //     <div className="navbar-brand">Todo App</div>
-    //   </nav>
-    //   <div className="app">
-    //     <Todos />
-    //   </div>
-    // </div>
+     <div>
+       <nav className="bg-secondary" style={{ color: "white" }}>
+         <div className="navbar-brand">Todo App</div>
+       </nav>
+       <div className="app">
+         <Todos />
+       </div>
+     </div>
 
-    <div>
-      <Test />
-    </div>
-  );
+      );
 }
 
 export default App;
